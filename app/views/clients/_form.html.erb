@@ -1,0 +1,28 @@
+<%if (flash[:notice])%>
+  <div id="mensagem" class="flash">
+    <%=flash[:notice]%>
+  </div>
+<%end%>
+
+<div id="form">
+  <%form_for @clients do |f|%>
+    <ul>
+			<li>Nome:</li> 			
+			<li> <%=f.text_field :name, :size => "10", :maxlength => "12" %></li>
+			<li>Sobrenome:</li>
+			<li><%=f.text_field :lastname, :size => "16", :maxlength => "18" %></li>
+			<li>CPF:</li>
+			<li><%=f.text_field :cpf, :size => "12", :maxlength => "11" %></li>
+			<li>Logradouro:</li>
+			<li><%=f.text_field :adress_type, :size => "8", :maxlength => "10" %></li>
+			<li>Endereço:</li>
+			<li><%=f.text_field :adress, :size => "48", :maxlength => "50" %></li>
+			<li>Número:</li>
+			<li><%=f.text_field :adress_number, :size => "6", :maxlength => "4" %></li>
+		</ul>
+
+		<ul>
+			<li><button type="submit">cadastrar</button></li>
+		</ul>
+	<% end %>
+</div>

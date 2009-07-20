@@ -1,0 +1,17 @@
+<div id="tracert">Main Menu / Listagem - Clientes</div>
+<%@clients.each do |c| %>
+	<div id="show">
+		<ul>	
+			<li><%=link_to c.name, edit_client_path(c) %></li>
+			<ul>
+				<li><%=c.cpf%></li>
+			</ul>
+		</ul>
+	</div>
+<% end %>
+
+<%if @clients.empty?%>
+	<p>Ainda o sistema não possui cliente cadastrado. Comece  
+															<%=link_to "cadastrando um", new_client_path()%>!</p>
+<% end %>
+

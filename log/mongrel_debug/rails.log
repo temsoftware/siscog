@@ -1,0 +1,110 @@
+# Logfile created on Tue Jul 07 14:19:29 -0300 2009 by /
+D, [2009-07-07T14:19:29.778756 #15406] DEBUG -- : TRACING ON Tue Jul 07 14:19:29 -0300 2009
+Tue Jul 07 14:19:38 -0300 2009 REQUEST /sessions/new
+--- !map:Mongrel::HttpParams 
+SERVER_NAME: localhost
+HTTP_ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+HTTP_HOST: localhost:3000
+HTTP_KEEP_ALIVE: "300"
+HTTP_USER_AGENT: Mozilla/5.0 (X11; U; Linux i686; pt-BR; rv:1.9.0.11) Gecko/2009060308 Ubuntu/9.04 (jaunty) Firefox/3.0.11
+REQUEST_PATH: /sessions/new
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_IF_NONE_MATCH: "\"88655988045e64ff67a80317d192e7ab\""
+HTTP_ACCEPT_LANGUAGE: pt-br,pt;q=0.8,en-us;q=0.5,en;q=0.3
+REMOTE_ADDR: 127.0.0.1
+PATH_INFO: /sessions/new
+SERVER_SOFTWARE: Mongrel 1.1.5
+SCRIPT_NAME: /
+HTTP_COOKIE: _siscog_session=BAh7CDoPc2Vzc2lvbl9pZCIlY2U4NjhhYjk3N2U3YWM0OTZmNjNhYjU5MzNlNTBkZmQ6EF9jc3JmX3Rva2VuIjFuMDd1bzBiWnVZYjFrRWM4YnRzbnBXL3pXdHR2SzMrazl5cXR0MkRvb0R3PSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiP1VzdWFyaW8gZS9vdSBzZW5oYSBpbnZhbGlkb3MuIFZlcmlmaXF1ZSBlIHRlbnRlIG5vdmFtZW50ZS4GOgpAdXNlZHsGOwhG--a2a660a90cd4d9ea03fb84f18573bcdf79b2213e
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /sessions/new
+SERVER_PORT: "3000"
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+REQUEST_METHOD: GET
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_CONNECTION: keep-alive
+HTTP_ACCEPT_ENCODING: gzip,deflate
+
+Tue Jul 07 14:19:42 -0300 2009 REQUEST /sessions/new
+--- !map:Mongrel::HttpParams 
+SERVER_NAME: localhost
+HTTP_ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+HTTP_HOST: localhost:3000
+HTTP_KEEP_ALIVE: "300"
+HTTP_USER_AGENT: Mozilla/5.0 (X11; U; Linux i686; pt-BR; rv:1.9.0.11) Gecko/2009060308 Ubuntu/9.04 (jaunty) Firefox/3.0.11
+REQUEST_PATH: /sessions/new
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_IF_NONE_MATCH: "\"f5671fe1349ff33a37af88506aadb521\""
+HTTP_ACCEPT_LANGUAGE: pt-br,pt;q=0.8,en-us;q=0.5,en;q=0.3
+REMOTE_ADDR: 127.0.0.1
+PATH_INFO: /sessions/new
+SERVER_SOFTWARE: Mongrel 1.1.5
+SCRIPT_NAME: /
+HTTP_COOKIE: _siscog_session=BAh7CDoPc2Vzc2lvbl9pZCIlY2U4NjhhYjk3N2U3YWM0OTZmNjNhYjU5MzNlNTBkZmQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIj9Vc3VhcmlvIGUvb3Ugc2VuaGEgaW52YWxpZG9zLiBWZXJpZmlxdWUgZSB0ZW50ZSBub3ZhbWVudGUuBjoKQHVzZWR7BjsHVDoQX2NzcmZfdG9rZW4iMW4wN3VvMGJadVliMWtFYzhidHNucFcveld0dHZLMytrOXlxdHQyRG9vRHc9--925626a4c546bfba76b218e772d3bb6a7d355efd
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /sessions/new
+SERVER_PORT: "3000"
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+REQUEST_METHOD: GET
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_CONNECTION: keep-alive
+HTTP_ACCEPT_ENCODING: gzip,deflate
+
+Tue Jul 07 14:19:52 -0300 2009 REQUEST /sessions
+--- !map:Mongrel::HttpParams 
+SERVER_NAME: localhost
+HTTP_ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+HTTP_HOST: localhost:3000
+CONTENT_LENGTH: "110"
+HTTP_KEEP_ALIVE: "300"
+HTTP_USER_AGENT: Mozilla/5.0 (X11; U; Linux i686; pt-BR; rv:1.9.0.11) Gecko/2009060308 Ubuntu/9.04 (jaunty) Firefox/3.0.11
+REQUEST_PATH: /sessions
+SERVER_PROTOCOL: HTTP/1.1
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_LANGUAGE: pt-br,pt;q=0.8,en-us;q=0.5,en;q=0.3
+REMOTE_ADDR: 127.0.0.1
+PATH_INFO: /sessions
+SERVER_SOFTWARE: Mongrel 1.1.5
+HTTP_CONTENT_LENGTH: "110"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+SCRIPT_NAME: /
+HTTP_REFERER: http://localhost:3000/sessions/new
+HTTP_COOKIE: _siscog_session=BAh7CDoPc2Vzc2lvbl9pZCIlY2U4NjhhYjk3N2U3YWM0OTZmNjNhYjU5MzNlNTBkZmQ6EF9jc3JmX3Rva2VuIjFuMDd1bzBiWnVZYjFrRWM4YnRzbnBXL3pXdHR2SzMrazl5cXR0MkRvb0R3PSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--24993e36f7963d94375a59a1735b0504f305dc47
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /sessions
+SERVER_PORT: "3000"
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+REQUEST_METHOD: POST
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_CONNECTION: keep-alive
+HTTP_ACCEPT_ENCODING: gzip,deflate
+
+Tue Jul 07 14:22:01 -0300 2009 REQUEST /sessions
+--- !map:Mongrel::HttpParams 
+SERVER_NAME: localhost
+HTTP_ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+HTTP_HOST: localhost:3000
+CONTENT_LENGTH: "110"
+HTTP_KEEP_ALIVE: "300"
+HTTP_USER_AGENT: Mozilla/5.0 (X11; U; Linux i686; pt-BR; rv:1.9.0.11) Gecko/2009060308 Ubuntu/9.04 (jaunty) Firefox/3.0.11
+REQUEST_PATH: /sessions
+SERVER_PROTOCOL: HTTP/1.1
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_LANGUAGE: pt-br,pt;q=0.8,en-us;q=0.5,en;q=0.3
+REMOTE_ADDR: 127.0.0.1
+PATH_INFO: /sessions
+SERVER_SOFTWARE: Mongrel 1.1.5
+HTTP_CONTENT_LENGTH: "110"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+SCRIPT_NAME: /
+HTTP_REFERER: http://localhost:3000/sessions
+HTTP_COOKIE: _siscog_session=BAh7CDoPc2Vzc2lvbl9pZCIlY2U4NjhhYjk3N2U3YWM0OTZmNjNhYjU5MzNlNTBkZmQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIj9Vc3VhcmlvIGUvb3Ugc2VuaGEgaW52YWxpZG9zLiBWZXJpZmlxdWUgZSB0ZW50ZSBub3ZhbWVudGUuBjoKQHVzZWR7BjsHRjoQX2NzcmZfdG9rZW4iMW4wN3VvMGJadVliMWtFYzhidHNucFcveld0dHZLMytrOXlxdHQyRG9vRHc9--3a51c622fdc5ae9a69ef05a912566cbf42e46c6b
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /sessions
+SERVER_PORT: "3000"
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+REQUEST_METHOD: POST
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_CONNECTION: keep-alive
+HTTP_ACCEPT_ENCODING: gzip,deflate
+

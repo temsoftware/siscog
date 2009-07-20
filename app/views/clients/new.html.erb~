@@ -1,0 +1,2 @@
+<div id="tracert"><%=link_to "Main Menu", clients_path%> / Cadastro de Cliente</div>
+<%=render :partial => "form"%>
